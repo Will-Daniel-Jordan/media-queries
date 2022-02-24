@@ -29,12 +29,14 @@ body {
 .hidden-on-desktop {
 
 }
+
 h1 {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
     margin-top: 10px;
 }
+
 .nav-links {
     list-style: none;
     padding: 0;
@@ -44,6 +46,7 @@ h1 {
     align-content: space-around;
 
 }
+
 nav {
     width: 93%;
 }
@@ -51,10 +54,11 @@ nav {
 .header-img {
 
 }
+
 img {
     display: block;
-    max-width:100%;
-    max-height:224px;
+    max-width: 100%;
+    max-height: 224px;
 }
 
 .main {
@@ -73,6 +77,7 @@ li {
     text-align: center;
     margin: 5px;
 }
+
 footer {
     width: 100%;
     display: flex;
@@ -80,12 +85,13 @@ footer {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media screen and (min-width:992px) {
+@media screen and (min-width: 992px) {
 
     body {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .alert-info {
@@ -94,7 +100,7 @@ footer {
 
     li {
         background: white;
-        padding: 0px;
+        padding: 0;
         width: 9%;
     }
 
@@ -115,14 +121,14 @@ footer {
 
     img {
         display: block;
-        max-width:100%;
-        max-height:385px;
+        max-width: 100%;
+        max-height: 385px;
         margin-top: 40px;
         margin-bottom: 40px;
     }
 
     .main {
-        width: 60%;
+        width: 50%;
         padding-right: 40px;
         display: flex;
         flex-direction: column;
@@ -130,7 +136,7 @@ footer {
     }
 
     .main h2 {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .sub-section {
@@ -146,7 +152,15 @@ footer {
     }
 
     .sub-section h2 {
-        margin-top: 0px;
+        margin-top: 0;
+    }
+    .header-img {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
     }
 }
+
+
 
